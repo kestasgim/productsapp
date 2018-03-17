@@ -1,0 +1,58 @@
+.page {
+  margin: 20px;
+}
+
+.interactions {
+  text-align: center;
+}
+
+.list {
+  margin: 20px 0;
+}
+
+.list-row {
+  display: flex;
+  line-height: 24px;
+  white-space: nowrap;
+  margin: 10px 0;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+}
+
+#pagination-bar {
+	display: inline-block;
+}
+
+#pagination-bar ul {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#pagination-bar li {
+    display: inline-block;
+}
+
+#pagination-bar li.active{
+	font-weight: bold;
+}
+
+#pagination-bar .break a {
+    cursor: default;
+}
+
+#pagination-bar a {
+	padding: 5px;
+	cursor: pointer;
+	border: 1px;
+}
+
+.header{
+	font-weight: bold;
+}
+
+.navigation{
+	font-size: larger;
+	font-weight: bold;
+}
